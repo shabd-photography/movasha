@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    font-family: 'New Tegomin', serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+    box-shadow: 0 2.5px 5px 0.75px #000;
+}
+.navbar {
+    background-image: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747));
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 35px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+   
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+    font-family: 'New Tegomin', serif;
+    transition: 00.5s;
+    padding-right: 30px;
+    
+}
+.navbar-nav li a:hover{
+    transform: translateY(5px);
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 55px  !important;
+    padding-top:40px ;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    
+}
+
+.navbar-toggler{
+    outline: none  !important;
+}
+/*----------banner section-------------*/
+.promo-title{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: uppercase;
+    position: relative;
+}
+.row{
+    justify-content: center;
+}
+.bottom-img{
+    width: 100%;
+    margin-top: 10px !important;
+}
+#banner{
+    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747)) ,url(DSC_1417.jpg);
+    color: #fff;
+    padding-top: 5%;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-txt{
+    font-weight: bold;
+    font-family:'New Tegomin', serif;
+}
+#banner a{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 12 0;
+    vertical-align: middle;
+    padding: 5px ;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-family:'New Tegomin', serif;
+    transition: color 0.5s;
+    font-weight: bold;
+     box-shadow: 0 2.5px 5px 0.75px #000;
+     margin-top: 10px;
+}
+#banner a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #fff;
+    text-align: center;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 2.5px 5px 0.75px #000;
+}
+#banner a:hover span {
+    width: 100%;
+    border-radius: 20px;
+}
+#banner a:hover {
+   color:#009688 ;
+}
+#banner1{
+    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747)) ,url(20210124_230547_0000.png);
+    color: #fff;
+    padding-top: 5%;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+#banner1 a{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 12 0;
+    vertical-align: middle;
+    padding: 5px ;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-family:'New Tegomin', serif;
+    transition: color 0.5s;
+    font-weight: bold;
+     box-shadow: 0 2.5px 5px 0.75px #000;
+     margin-top: 10px;
+}
+#banner1 a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #fff;
+    text-align: center;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 2.5px 5px 0.75px #000;
+}
+#banner1 a:hover span {
+    width: 100%;
+    border-radius: 20px;
+}
+#banner1 a:hover {
+   color:#009688 ;
+}
+#banner2{
+    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747)) ,url(20201005_131208_0000.png);
+    color: #fff;
+    padding-top: 5%;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+#banner2 a{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 12 0;
+    vertical-align: middle;
+    padding: 5px ;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-family:'New Tegomin', serif;
+    transition: color 0.5s;
+    font-weight: bold;
+     box-shadow: 0 2.5px 5px 0.75px #000;
+     margin-top: 10px;
+}
+#banner2 a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #fff;
+    text-align: center;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 2.5px 5px 0.75px #000;
+}
+#banner2 a:hover span {
+    width: 100%;
+    border-radius: 20px;
+}
+#banner2 a:hover {
+   color:#009688 ;
+}
+#banner3{
+    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747)) ,url(20201221_173458_0000.png);
+    color: #fff;
+    padding-top: 5%;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+#banner3 a{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 12 0;
+    vertical-align: middle;
+    padding: 5px ;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-family:'New Tegomin', serif;
+    transition: color 0.5s;
+    font-weight: bold;
+     box-shadow: 0 2.5px 5px 0.75px #000;
+     margin-top: 10px;
+}
+#banner3 a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #fff;
+    text-align: center;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 2.5px 5px 0.75px #000;
+}
+#banner3 a:hover span {
+    width: 100%;
+    border-radius: 20px;
+}
+#banner3 a:hover {
+   color:#009688 ;
+}
+#banner4{
+    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747)) ,url(parakeet.png);
+    color: #fff;
+    padding-top: 5%;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+#banner4 a{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 12 0;
+    vertical-align: middle;
+    padding: 5px ;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-family:'New Tegomin', serif;
+    transition: color 0.5s;
+    font-weight: bold;
+     box-shadow: 0 2.5px 5px 0.75px #000;
+     margin-top: 10px;
+}
+#banner4 a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #fff;
+    text-align: center;
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 2.5px 5px 0.75px #000;
+}
+#banner4 a:hover span {
+    width: 100%;
+    border-radius: 20px;
+}
+#banner4 a:hover {
+   color:#009688 ;
+}
+/*--------Photos--------*/
+#Photos{
+    padding: 80px 0;
+   display: flex;
+}
+.photos-img{
+    width:50%;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 1.5px #009688;
+}
+.photos{
+    text-align: center;
+
+}
+.Photos-txt{
+    font-family: 'Kaushan Script', cursive;
+    color: #009688;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background: #009688;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(83px);
+    margin-bottom: 20px;
+    box-shadow: 0 1.75px 2.5px 0.35px #000;
+}
+.title{
+    font-family: 'Kaushan Script', cursive;
+    text-transform: uppercase;
+    
+}
+.title::after{
+    content: '';
+    background: #009688;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    box-shadow: 0 1.75px 2.5px 0.35px #000;
+    
+}
+#Photos .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747));
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 40px;
+    box-shadow: 0 2.5px 5px 0.75px #000;
+}
+#Photos .btn-primary:hover {
+    transform : translateY(-7px);
+}
+
+
+
+/*--------Latest Photos----------*/
+#Latest-photo{
+    background: #efefef;
+    padding-top: 80px;
+}
+.single-latest{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    color: #fff;
+    position: relative;
+	box-shadow: 0 5px 10px 1.5px #009688;
+    margin-top: 100px;
+
+    
+}
+.single-latest img{
+    border-radius: 7px;
+	height: 100%x;
+	width: 100%;
+    
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+    margin-right: 10px;
+}
+.single-latest :hover.overlay {
+    opacity: 1;
+
+}
+
+.latest-desc{ 
+    width: 80%;
+    position:absolute;
+    bottom: 40%; 
+    left: 50%;
+   vertical-align: middle;
+    opacity: 1;
+    transform: translateX(-50%);
+    transition: 1s;
+    cursor: pointer;
+	text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 20px;
+	
+
+}
+hr {
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+    
+}
+.latest-desc p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+}
+/*--footer--*/
+#footer{
+	padding: 100px 0 20px;
+	background: rgb(224, 248, 244);
+}
+.social-links{
+	text-align: center;
+}
+.social-links .fa{
+	height: 40px;
+	width: 40px;
+    border-radius: 20px;
+	font-size: 20px;
+	list-style: 40px;
+	border: 1px solid #009688;
+	vertical-align: middle;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: -8px;
+	margin-bottom: -8px;
+	transition: transform 0.5s;
+	color: #efefef;
+    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747));
+    box-shadow: 0 2.5px 5px 0.75px #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+
+}
+.social-links .fa:hover{
+	transform: translateY(-7px);
+}
+.footer-txt{
+    font-family: 'New Tegomin', serif;
+    font-weight: bold;
+    margin-top: 10px;
+    
+
+
+}

@@ -1,0 +1,63 @@
+<HTML>
+
+    <HEAD>
+        <TITLE>Shabd Movasha</TITLE>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" <link rel="preconnect"
+            href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kaushan+Script&family=New+Tegomin&display=swap"
+            rel="stylesheet">
+    </HEAD>
+    
+    <BODY>
+        <section id="banner">
+            <img src="/home/milindm/Downloads/20201106_133238_0000.png" class="logo">
+            <div class="banner-text">
+                <h1>Birds</h1>
+                <p>Local birds of Pune</p>
+                <div class="banner-btn">
+                    <a href="#"><span></span>Photos</a>
+                    <a href="#"><span></span>Gallery</a>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index1.html">Birds</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Nature</a></li>
+                    <li><a href="#">Landscape</a></li>
+                    <li><a href="#">Other</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="/home/milindm/Downloads/menu_white_24dp.svg" id="menu">
+        </div>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menuBtn.onclick = function () {
+                if (sideNav.style.right == "-250px") {
+                    sideNav.style.right = "0";
+                    menu.src = "/home/milindm/Downloads/highlight_off_white_24dp.svg";
+                }
+                else {
+                    sideNav.style.right = "-250px";
+                    menu.src = "/home/milindm/Downloads/menu_white_24dp.svg";
+                }
+            }
+        </script>
+
+    </BODY>
+</HTML>
