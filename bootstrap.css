@@ -17,9 +17,9 @@ body{
 }
 .navbar-brand img{
     height: 35px;
-    padding-left: 25px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    
 }
 .navbar-nav li{
     padding: 0 10px;
@@ -32,7 +32,6 @@ body{
     text-align: left;
     font-family: 'New Tegomin', serif;
     transition: 00.5s;
-    padding-right: 30px;
     
 }
 .navbar-nav li a:hover{
@@ -41,19 +40,20 @@ body{
 
 .fa-bars{
     color: #fff;
-    font-size: 55px  !important;
-    padding-top:40px ;
-    padding-bottom: 40px;
-    padding-right: 40px;
+    font-size: 30px  !important;
     
 }
 
 .navbar-toggler{
     outline: none  !important;
+    
+}
+.navbar-toggler .icon-bar{
+    padding: 50px !important;
 }
 /*----------banner section-------------*/
 .promo-title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     margin-top: 100px;
     font-family: 'Kaushan Script', cursive;
@@ -529,7 +529,7 @@ hr {
 }
 /*--footer--*/
 #footer{
-	padding: 100px 0 20px;
+	
 	background: rgb(224, 248, 244);
 }
 .social-links{
