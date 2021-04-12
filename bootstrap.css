@@ -393,7 +393,7 @@ body{
 /*--------Latest Photos----------*/
 #Latest-photo{
     background: #fff;
-    padding-top: 80px;
+    
 }
 .single-latest{
     flex-basis: 48%;
@@ -431,20 +431,17 @@ body{
 }
 
 .latest-desc{ 
-    width: 80%;
     position:absolute;
-    bottom: 40%; 
-    left: 50%;
-   vertical-align: middle;
+    vertical-align: middle !important;
     opacity: 1;
     transform: translateX(-50%);
     transition: 1s;
     cursor: pointer;
 	text-align: center;
     font-family: 'Kaushan Script', cursive;
+    width: 80%;
     margin-top: 20px;
-	
-
+    margin-left: 50%;
 }
 hr {
     background: #fff;
@@ -455,7 +452,7 @@ hr {
     
 }
 .latest-desc p {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 400;
     font-family: 'Teko', sans-serif;
 }
@@ -498,22 +495,6 @@ hr {
 
 }
 
-.latest-desc{ 
-    width: 80%;
-    position:absolute;
-    bottom: 40%; 
-    left: 50%;
-   vertical-align: middle;
-    opacity: 1;
-    transform: translateX(-50%);
-    transition: 1s;
-    cursor: pointer;
-	text-align: center;
-    font-family: 'Kaushan Script', cursive;
-    margin-top: 20px;
-	
-
-}
 hr {
     background: #fff;
     height: 2px;
