@@ -223,7 +223,7 @@ body{
    color:#009688 ;
 }
 #banner3{
-    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747)) ,url(20201221_173458_0000.png);
+    background: linear-gradient(to right,#009688,rgba(2, 22, 109, 0.747)) ,url(scene.jpg);
     color: #fff;
     padding-top: 5%;
     text-align: center;
@@ -392,6 +392,74 @@ body{
 
 /*--------Latest Photos----------*/
 #Latest-photo{
+    background: #fff;
+    padding-top: 80px;
+}
+.single-latest{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    color: #fff;
+    position: relative;
+	box-shadow: 0 5px 10px 1.5px #009688;
+    margin-top: 100px;
+
+    
+}
+.single-latest img{
+    border-radius: 7px;
+	height: 100%x;
+	width: 100%;
+    
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+    margin-right: 10px;
+}
+.single-latest :hover.overlay {
+    opacity: 1;
+
+}
+
+.latest-desc{ 
+    width: 80%;
+    position:absolute;
+    bottom: 40%; 
+    left: 50%;
+   vertical-align: middle;
+    opacity: 1;
+    transform: translateX(-50%);
+    transition: 1s;
+    cursor: pointer;
+	text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 20px;
+	
+
+}
+hr {
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+    
+}
+.latest-desc p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+}
+#Latest-photo1{
     background: #efefef;
     padding-top: 80px;
 }
